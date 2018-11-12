@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registro</title>
+        <link rel="stylesheet" href="css/Shop.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>Unase a nuestra lista</h1>
+        <p>Para unirse ingrese la informacion necesaria.</p>
+        <form method="post" action="controller/registerUser.php">
+            <input type="hidden" name="action" value="add">
+            <label>Telefono:</label>
+            <input type="text" name="telefono" id="telefono" required><br>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required><br>
+            <label>Calle:</label>
+            <input type="text" name="calle" id="calle" required><br>
+            <label>Numero:</label>
+            <input type="text" name="numero" id="numero" required><br>
+            <label>Colonia:</label>
+            <input type="text" name="colonia" id="colonia" required><br>
+            <label>Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" required><br>
+            <label>Codigo Postal:</label>
+            <input type="text" name="cpostal" id="cpostal" required><br>
+            <label>Correo Electronico:</label>
+            <input type="text" name="email" id="email" required><br>
+            <label>Usuario:</label>
+            <input type="text" name="user" id="user" required><br>
+            <label>Password:</label>
+            <input type="text" name="pass" id="pass" required><br>
+            <label>&nbsp;</label>
+            <input type="submit" name="signupSubmit" value="Unirse" id="submit">
+        </form>
+        <br>
+        <footer>
+            <a class="reg" href="login1.php">Regresar</a>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    </body>
+</html>

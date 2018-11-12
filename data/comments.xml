@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<comments>
+  <comment>
+    <name email="lupita@itesm.mx"> Lupita </name>
+    <text> La mejor calidad! Buenos precios.</text>
+  </comment>
+  <comment>
+    <name email="juanitoperez@itesm.mx"> Juan Perez </name>
+    <text> Les di mi dinero y no hubo falla. </text>
+  </comment>
+  <comment>
+    <name email="brendan57@itesm.mx"> Brendan Sullivan </name>
+    <text> Cumplieron con la entrega. </text>
+  </comment>
+  <comment>
+    <name email="juan@itesm.mx"> Juan Escutia </name>
+    <text> Me llego bien, sin problemas. </text>
+  </comment>
+  <comment>
+    <name email="frida@itesm.com"> Frida </name>
+    <text> Gracias. </text>
+  </comment>
+</comments>

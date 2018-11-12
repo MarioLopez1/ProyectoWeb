@@ -1,0 +1,544 @@
+	body{
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	font-style: bold;
+	margin: 0px;
+	padding: 10px;
+	background-image: url('../images/189.jpg');
+	background-size: calc(100%);
+	}
+
+	h1 {
+	margin: 0px;
+	padding: 20px;
+	background-color: rgb(15,132,195);
+	color: black;
+	background-image: url('../images/logo.png');
+	background-position: calc(100%) 0px;
+	background-repeat: no-repeat;
+	background-size: 130px 90px;
+	
+	}
+
+	#menu {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		background-color: royalblue;
+		overflow: hidden;
+	/*	text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;*/
+
+	}
+
+	#menu > li{
+		float: left;
+		padding: 30px;
+		/*text-decoration: none!important;
+		-webkit-box-shadow: none!important;
+    box-shadow: none!important;*/
+	}
+
+	#menu > li:hover{
+		color: #FFFFFF;
+		cursor: pointer;
+		background-color: #E51A2E;
+	}
+
+	main {
+		border: 1px dashed #CCCCCC;
+		margin: 10px;
+		padding: 30px;
+		background-color: gray;
+	}
+
+	#mainelecdom span {
+		color: black;
+		background-image: url('../images/refrisamsung.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainelecdom #elecdom1 {
+		color: black;
+		background-image: url('../images/refrisamsung3.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainelecdom #elecdom2 {
+		color: black;
+		background-image: url('../images/lavadora.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+	}
+
+
+	#mainelec span {
+		color: black;
+		background-image: url('../images/sony55.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainelec #elec1 {
+		color: black;
+		background-image: url('../images/samsung55.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainelec #elec2 {
+		color: black;
+		background-image: url('../images/hisense65.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+	}
+
+	#mainhogar span {
+		color: black;
+		background-image: url('../images/cafetera.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainhogar #hogar1 {
+		color: black;
+		background-image: url('../images/procesador.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainhogar #hogar2 {
+		color: black;
+		background-image: url('../images/bateria.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+	#mainentre span {
+		color: black;
+		background-image: url('../images/xbox.png');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainentre #entre1 {
+		color: black;
+		background-image: url('../images/switch.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#mainentre #entre2 {
+		color: black;
+		background-image: url('../images/ps4.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 50px 40px;
+		background-repeat: no-repeat;
+		background-size: 250px 150px;
+		background-color: white;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(50%) ;
+
+	}
+
+	#maincareers span {
+		color: black;
+		background-image: url('../images/careers.png');
+		border: 1px solid black;
+		padding: 20px 40px 160px 40px;
+		background-repeat: no-repeat;
+		background-size: 150px 100px;
+		background-color: rgb(15,132,195);
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(100%) ;
+
+	}
+
+	#mainhistoria span {
+		color: black;
+		background-image: url('../images/historia.jpg');
+		border: 1px solid black;
+		padding: 20px 40px 160px 40px;
+		background-repeat: no-repeat;
+		background-size: 150px 100px;
+		background-color: rgb(15,132,195);
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(20%) calc(100%) ;
+
+	}
+
+	#maincontacto span {
+		color: black;
+		background-image: url('../images/workt.png');
+		border: 1px solid black;
+		padding: 20px 40px 160px 40px;
+		background-repeat: no-repeat;
+		background-size: 150px 100px;
+		background-color: rgb(15,132,195);
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(50%) calc(100%) ;
+
+
+	}
+/*
+	section  #ingrediente {
+		color: black;
+		background-image: url('../images/ing1.jpg');
+		border: 1px solid black;
+		padding: 20px 40px;
+		background-repeat: no-repeat;
+		background-size: 60px 60px;
+		background-color: #E51A2E;
+		margin: 10px 0px;
+		display: block;
+		background-position: calc(100%) 0px;
+
+	}*/
+
+	
+
+	.button_submit{
+		padding:  10px 20px;
+		margin-left: 20px;
+		color: red;
+		font size: 15px
+		border-radius: 7px;
+	}
+	.button_submit:hover {
+		opacity 0.8;
+		cursor: pointer;
+		color: #FCC000;
+		background-color: #E51A2E;
+	}
+
+	/*input[type = "reset"]{
+		padding:  10px 20px;
+		margin-left: 20px;
+		color: black;
+		font size: 15px
+		border-radius: 7px;
+	}
+	input[type = "reset"]:hover {
+		opacity 0.8;
+		cursor: pointer;
+		color: #FCC000;
+		background-color: #E51A2E;
+
+	}*/
+
+	#button_submit {
+		background-color: #03BC9E;
+	}
+
+	#cancel {
+		background-color: red;
+	}
+
+	#mainhogar .carrito{
+		
+		margin-left: calc(80%);
+		padding:  10px 20px;
+	
+		color: green;
+		font size: 15px
+		border-radius: 7px;
+
+
+	}
+
+	#mainhogar .carrito:hover {
+		opacity 0.8;
+		cursor: pointer;
+		color: #FCC000;
+		background-color: #E51A2E;
+}
+
+	#mainhogar .select{
+		border-radius: 7px;
+		
+
+		
+	}
+
+	#mainentre .carrito{
+		
+		margin-left: calc(80%);
+		padding:  10px 20px;
+	
+		color: green;
+		font size: 15px
+		border-radius: 7px;
+
+
+	}
+
+	#mainentre .carrito:hover {
+		opacity 0.8;
+		cursor: pointer;
+		color: #FCC000;
+		background-color: #E51A2E;
+}
+
+	#mainentre .select{
+		border-radius: 7px;
+		
+
+		
+	}
+
+	#mainelec .carrito{
+		
+		margin-left: calc(80%);
+		padding:  10px 20px;
+	
+		color: green;
+		font size: 15px
+		border-radius: 7px;
+
+
+	}
+
+	#mainelec .carrito:hover {
+		opacity 0.8;
+		cursor: pointer;
+		color: #FCC000;
+		background-color: #E51A2E;
+}
+
+	#mainelec .select{
+		border-radius: 7px;
+		
+
+		
+	}
+
+	#mainelecdom .carrito{
+		
+		margin-left: calc(80%);
+		padding:  10px 20px;
+	
+		color: green;
+		font size: 15px
+		border-radius: 7px;
+
+
+	}
+
+	#mainelecdom .carrito:hover {
+		opacity 0.8;
+		cursor: pointer;
+		color: #FCC000;
+		background-color: #E51A2E;
+}
+
+	#mainelecdom .select{
+		border-radius: 7px;
+		
+
+		
+	}
+
+
+/*
+	.element_hidden {
+ 		 display:none;
+	}
+
+	.comen{
+		padding: 20px;
+		border-radius: 10px;
+		color: black;
+		font-size: 15px;
+		background: red;
+
+	}
+
+	.comen:hover{
+		color: #FFFFFF;
+		cursor: pointer;
+	}
+
+	.order{
+		padding: 20px;
+		border-radius: 10px;
+		color: black;
+		font-size: 15px;
+		background: green;
+
+	}
+
+	.order:hover{
+		color: #FFFFFF;
+		cursor: pointer;
+	}
+
+	.back{
+		padding: 5px;
+		border-radius: 10px;
+		color: black;
+		font-size: 15px;
+		background: red;
+
+	}
+
+	.back:hover{
+		color: #FFFFFF;
+		cursor: pointer;
+}
+
+	.labo{
+		color: blue;
+		font-size: 17px;
+		font-style: bold;
+	}
+
+	.commen{
+		color:green;
+		font-size: 15px;
+		font-style: bold;
+	}
+
+	.validation_error {
+ 	 color: red;
+  	font-size: 18px;
+  	margin-left: 5px;
+	}
+*/
+
+.enlace {
+  display:inline;
+  padding:  10px 20px;
+  margin-left: 20px;		
+  color: red;
+  font size: 10px;
+  border-radius: 7px;
+  text-decoration:underline;
+  background:none;
+  color:green;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height:1em;
+}
+
+.enlace:hover {
+  text-decoration:none;
+  color:black;
+  cursor:pointer;
+}
+
+.enlace2 {
+  display:inline;
+  padding:  10px 20px;
+  margin-left: 20px;		
+  color: red;
+  font size: 10px;
+  border-radius: 7px;
+  text-decoration:underline;
+  background:none;
+  color:red;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height:1em;
+}
+
+.enlace2:hover {
+  text-decoration:none;
+  color:black;
+  cursor:pointer;
+}
+
+.hip{
+	padding: 10px;
+	border-radius: 5px;
+	border-color: #FCC000;
+	background: royalblue;
+	color: white;
+	font-weight: bold;
+}
+
+.hip:hover{
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #FCC000;
+}
